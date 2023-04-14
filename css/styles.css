@@ -1,0 +1,176 @@
+/* ===================== TAG SELECTORS ===================== */
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #393053;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 0;
+}
+
+
+/* ===================== CLASS SELECTORS ===================== */
+
+/* Containers */
+.top-container {
+    background-color: #18122B;
+    position: relative;
+}
+
+.gradient-container {
+    background-image: linear-gradient(#18122B, #393053);
+}
+
+.gradient-container-2 {
+    background-color: green;
+}
+
+/* Website head */
+
+.title {
+    font-family: 'Sacramento', cursive;
+    margin: 0;
+    font-size: 6rem;
+    line-height: 0.8;
+    color: #66BFBF;
+    padding-top: 17%;
+}
+
+.subtitle {
+    font-family: 'Chivo Mono', monospace;
+    margin-top: 0;
+    color: #66BFBF;
+    font-size: 1.25rem;
+    position: relative;
+    top: 30.5%;
+}
+
+.blue-planet {
+    scale: 1;
+    margin-top: 5%;
+    padding-bottom: 50px;;
+}
+
+.green-planet {
+    position: absolute;
+    scale: 0.5;
+    left: 50%;
+    bottom: 15%;
+}
+
+.purple-planet {
+    position: absolute;
+    scale: 0.5;
+    left: calc(50% - 480px);
+    bottom: -5%;
+}
+
+/* Skills */
+
+.skills-container {
+    width: 33%;
+    float: left;
+}
+
+.skills-image {
+    border-radius: 200%;
+    background-color: #66BFBF;
+    padding: 10px;
+    right: 200px;
+    margin: 0 auto;
+}
+
+.skills-title {
+    margin: 0;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    color: #66BFBF;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.skills-subtitle {
+    color: #66BFBF;
+
+}
+
+.skills-text {
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    line-height: 1.7;
+}
+
+/* Education */
+
+.education-img {
+    border-radius: 200%;
+    background-color: #66BFBF;
+    padding: 10px;
+    margin-right: 41%;
+}
+
+.education-text-container {
+    float: left;
+    width: 42%;
+    text-align: right;
+}
+
+.education-text-left {
+    width: 90%;
+    margin: 0 10%;
+}
+
+.education-list:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: calc(50% - 7px);
+    width: 2px;
+    margin-left: -1.5px;
+    content: "";
+    background-color: #e9ecef;
+}
+
+.education-text-right {
+    width: 90%;
+}
+
+.education-list {
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+
+.education-img-container {
+    position: absolute;
+    right: calc(50% - 80px);
+}
+
+.education-panel {
+    float: left;
+    position: relative;
+    text-align: right;
+    width: 42%;
+}
+
+.education-panel-right {
+    float: right;
+    position: relative;
+    text-align: left;
+    width: 40%;
+}
+
+.list-element {
+    padding-bottom: 200px;
+}
