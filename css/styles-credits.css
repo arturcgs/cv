@@ -1,0 +1,31 @@
+/* ===================== TAG SELECTORS ===================== */
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #393053;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 0;
+}
+
+span {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 0;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 0;
+    text-decoration: none;
+}

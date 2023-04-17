@@ -17,6 +17,19 @@ p {
     margin: 0;
 }
 
+span {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 0;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 0;
+    text-decoration: none;
+}
+
 
 /* ===================== CLASS SELECTORS ===================== */
 
@@ -30,11 +43,37 @@ p {
     background-image: linear-gradient(#18122B, #393053);
 }
 
-.gradient-container-2 {
-    background-color: green;
+/* Generic Classes */
+.section-title {
+    margin: 0;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    color: #66BFBF;
+    font-size: 4rem;
+    font-weight: 900;
 }
 
 /* Website head */
+
+.head {
+    background-color: #18122B;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.home {
+    float: left;
+}
+
+.website-shortcut {
+    float: right;
+    margin-right: 50px;
+}
+
+/* Website intro */
 
 .title {
     font-family: 'Sacramento', cursive;
@@ -76,6 +115,10 @@ p {
 
 /* Skills */
 
+.skills-gradient {
+    background-image: linear-gradient(#393053, #443C68);
+}
+
 .skills-container {
     width: 33%;
     float: left;
@@ -89,18 +132,8 @@ p {
     margin: 0 auto;
 }
 
-.skills-title {
-    margin: 0;
-    padding-top: 120px;
-    padding-bottom: 80px;
-    color: #66BFBF;
-    font-size: 4rem;
-    font-weight: 900;
-}
-
 .skills-subtitle {
     color: #66BFBF;
-
 }
 
 .skills-text {
@@ -113,25 +146,45 @@ p {
 
 /* Education */
 
+.education-container {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 2;
+    padding-bottom: 100px;
+}
+
+.education-img-container {
+    display: inline-block;
+    padding-top: 15px;
+}
+
 .education-img {
     border-radius: 200%;
     background-color: #66BFBF;
     padding: 10px;
-    margin-right: 41%;
 }
 
-.education-text-container {
-    float: left;
-    width: 42%;
-    text-align: right;
+.education-text-right {
+    text-align: left;
+    float: right;
+    width: 70%;
 }
 
 .education-text-left {
-    width: 90%;
-    margin: 0 10%;
+    text-align: right;
+    float: left;
+    width: 70%;
 }
 
-.education-list:before {
+/* Courses */
+
+.courses-list {
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+
+.courses-list:before {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -142,35 +195,164 @@ p {
     background-color: #e9ecef;
 }
 
-.education-text-right {
-    width: 90%;
+.list-element {
+    padding-bottom: 250px;
 }
 
-.education-list {
-    position: relative;
-    padding: 0;
-    list-style: none;
-}
-
-.education-img-container {
+.courses-img-container {
     position: absolute;
     right: calc(50% - 80px);
 }
 
-.education-panel {
+.courses-img {
+    border-radius: 200%;
+    background-color: #66BFBF;
+    padding: 10px;
+    margin-right: 41%;
+}
+
+.courses-panel-left {
     float: left;
     position: relative;
     text-align: right;
     width: 42%;
 }
 
-.education-panel-right {
+.courses-panel-right {
     float: right;
     position: relative;
     text-align: left;
     width: 40%;
 }
 
-.list-element {
-    padding-bottom: 200px;
+.courses-text-left {
+    width: 90%;
+    margin: 0 10%;
+}
+
+.courses-text-right {
+    width: 90%;
+}
+
+.list-last {
+    margin-bottom: 100px;
+}
+
+/* Contact Me */
+
+.contact-container {
+    margin-top: 100px;
+    background-color: #18122B;
+    position: relative;
+    padding-bottom: 170px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.contact-info-container {
+    background-color: #393053;
+    position: relative;
+    width: 340px;
+    top: 20px;
+    left: 5%;
+    border-radius: 25px;
+    float: left;
+}
+
+.contact-list {
+    list-style: none;
+    margin: 0;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.email:hover {
+    filter: invert(8%) sepia(28%) saturate(1515%) hue-rotate(215deg) brightness(97%) contrast(99%);
+}
+
+.contact-img {
+    display: inline;
+    vertical-align: middle;
+    filter: invert(100%) sepia(96%) saturate(0%) hue-rotate(60deg) brightness(105%) contrast(105%);
+    padding-bottom: 4px;
+}
+
+.contact-text {
+    margin: 0;
+    display: inline-block;
+    padding-left: 3px;
+    color: white;
+}
+
+.astronaut-container {
+    position: absolute;
+    left: calc(50% - 55px);
+}
+
+.astronaut-img {
+    margin: 0;
+    scale: 0.7;
+    filter: invert(100%) sepia(96%) saturate(0%) hue-rotate(60deg) brightness(105%) contrast(105%);
+}
+
+.contact-icons-container {
+    background-color: #393053;
+    position: relative;
+    width: 268px;
+    top: 35px;
+    right: 5%;
+    border-radius: 25px;
+    float: right;
+}
+
+.contact-icon-img {
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    float: right;
+    filter: invert(100%) sepia(96%) saturate(0%) hue-rotate(60deg) brightness(105%) contrast(105%);
+}
+
+.contact-icon-img:hover {
+    filter: invert(8%) sepia(28%) saturate(1515%) hue-rotate(215deg) brightness(97%) contrast(99%);
+}
+
+.footer-att {
+    position: absolute;
+    top: 70%;
+    left: calc(50% - 40px);
+}
+
+.footer-att:hover {
+    color: gray;
+}
+
+.footer-ass {
+    position: absolute;
+    top: 85%;
+    left: calc(50% - 90px);
+    margin: 0;
+}
+
+/* Atributions */
+
+.att-title {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 4em;
+}
+
+.credit-data {
+    width: 10%;
+    padding: 20px;
+}
+
+.credit-table {
+    margin: 0 10%;
 }
