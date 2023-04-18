@@ -57,7 +57,7 @@ a {
 
 .head {
     background-color: #18122B;
-    padding: 20px;
+    padding: 12px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -66,11 +66,30 @@ a {
 
 .home {
     float: left;
+    margin: 0;
+}
+
+.header-name {
+    letter-spacing: 2px;
+    font-size: 1.2em;
+}
+
+.header-link {
+    padding: 4px 8px;
+}
+
+.header-link:hover{
+    background-color: #393053;
+    border-radius: 20px;
 }
 
 .website-shortcut {
     float: right;
-    margin-right: 50px;
+    margin-right: 30px;
+}
+
+.header-shortcuts {
+    font-weight: 600;
 }
 
 /* Website intro */
@@ -113,6 +132,54 @@ a {
     bottom: -5%;
 }
 
+.white-icon {
+    filter: invert(100%) sepia(96%) saturate(0%) hue-rotate(60deg) brightness(105%) contrast(105%);
+}
+
+.intro-astronaut {
+    position: absolute;
+    scale: 0.8;
+    left: 10%;
+    bottom: 30%;
+}
+
+.intro-galaxy {
+    position: absolute;
+    right: 7%;
+    top: 10%;
+    transform: rotate(-10deg);
+}
+
+.intro-mortar {
+    position: absolute;
+    right: 12%;
+    bottom: 10%;
+    transform: rotate(5deg);
+}
+
+.intro-coding {
+    position: absolute;
+    left: 20%;
+    bottom: 0%;
+    transform: rotate(-10deg);
+}
+
+.intro-dna {
+    position: absolute;
+    scale: 0.6;
+    left: 5%;
+    bottom: 12%;
+    transform: rotate(8deg);
+}
+
+.intro-computer {
+    position: absolute;
+    scale: 0.6;
+    right: 7%;
+    bottom: 25%;
+    transform: rotate(-7deg);
+}
+
 /* Skills */
 
 .skills-gradient {
@@ -125,7 +192,7 @@ a {
 }
 
 .skills-image {
-    border-radius: 200%;
+    border-radius: 100%;
     background-color: #66BFBF;
     padding: 10px;
     right: 200px;
