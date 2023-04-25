@@ -15,6 +15,7 @@ p {
     font-family: 'Montserrat', sans-serif;
     color: white;
     margin: 0;
+    font-weight: 500;
 }
 
 span {
@@ -189,14 +190,27 @@ a {
 .skills-container {
     width: 33%;
     float: left;
+    padding-bottom: 70px;
 }
 
-.skills-image {
+.skills-table {
+    width: 95%; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.skills-td {
+    width: 33%;
+    vertical-align: top;
+    padding-bottom: 40px;
+}
+
+.skills-img-container {
     border-radius: 100%;
     background-color: #66BFBF;
-    padding: 10px;
-    right: 200px;
-    margin: 0 auto;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 0;
 }
 
 .skills-subtitle {
@@ -207,9 +221,32 @@ a {
     color: white;
     width: 80%;
     margin: 0 auto;
-    padding-bottom: 70px;
     line-height: 1.7;
+    text-align: justify;
+    text-align-last: center;
 }
+
+.sub-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sub-table-left {
+    text-align: left;
+}
+
+.sub-td {
+    padding-left: 20px;
+    padding-top: 8px;
+    color: white;
+}
+
+.body-link:hover {
+    color: #9BA4B5;
+}
+
+
+
 
 /* Education */
 
@@ -223,6 +260,7 @@ a {
 .education-img-container {
     display: inline-block;
     padding-top: 15px;
+    padding-top: 50px;
 }
 
 .education-img {
@@ -232,13 +270,14 @@ a {
 }
 
 .education-text-right {
-    text-align: left;
+    text-align: justify;
     float: right;
     width: 70%;
 }
 
 .education-text-left {
-    text-align: right;
+    text-align: justify;
+    text-align-last: right;
     float: left;
     width: 70%;
 }
@@ -423,3 +462,4 @@ a {
 .credit-table {
     margin: 0 10%;
 }
+
