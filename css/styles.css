@@ -344,10 +344,12 @@ a {
 .courses-text-left {
     width: 90%;
     margin: 0 10%;
+    line-height: 1.8;
 }
 
 .courses-text-right {
     width: 90%;
+    line-height: 1.8;
 }
 
 .list-last {
