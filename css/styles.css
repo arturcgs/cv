@@ -11,6 +11,12 @@ h2 {
     color: white;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-top: 0;
+}
+
 p {
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -245,9 +251,6 @@ a {
     color: #9BA4B5;
 }
 
-
-
-
 /* Education */
 
 .education-container {
@@ -259,14 +262,17 @@ a {
 
 .education-img-container {
     display: inline-block;
-    padding-top: 15px;
-    padding-top: 50px;
+    border-radius: 100%;
+    background-color: #66BFBF;
+    padding: 10px;
+    margin-top: 50px;   
 }
 
 .education-img {
-    border-radius: 200%;
-    background-color: #66BFBF;
-    padding: 10px;
+    object-fit: scale-down;
+    width: 128px;
+    height: 128px;
+    vertical-align: middle;
 }
 
 .education-text-right {
@@ -308,13 +314,17 @@ a {
 .courses-img-container {
     position: absolute;
     right: calc(50% - 80px);
+    display: inline-block;
+    border-radius: 100%;
+    background-color: #66BFBF;
+    padding: 10px; 
 }
 
 .courses-img {
-    border-radius: 200%;
-    background-color: #66BFBF;
-    padding: 10px;
-    margin-right: 41%;
+    object-fit: contain;
+    width: 128px;
+    height: 128px;
+    vertical-align: middle;
 }
 
 .courses-panel-left {
@@ -388,6 +398,7 @@ a {
     margin: 0;
     display: inline-block;
     padding-left: 3px;
+    margin-bottom: 15px;
     color: white;
 }
 
